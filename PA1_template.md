@@ -16,7 +16,7 @@ located at "https://github.com/rdpeng/RepData_PeerAssessment1" and cloning it
 into the current working directory.
 
 
-##Loading and Preprocessing the Data
+## Loading and Preprocessing the Data
 
 The following code extracts the data from the zip file and loads it into R. It also
 transforms the date variable into date format.
@@ -37,7 +37,7 @@ library(knitr)
 library(dplyr)
 ```
 
-##What Is the Mean Total Number of Steps Taken per Day?
+## What Is the Mean Total Number of Steps Taken per Day?
 
 The first part of the assignment asks "what is the mean total number of steps
 taken per day?" It requires that the output be a histogram of the daily total
@@ -82,7 +82,7 @@ Thus, the mean number of steps taken per day is 10766 and the median
 number of steps taken per day is 10765.
 
 
-##What Is the Average Daily Activity Pattern?
+## What Is the Average Daily Activity Pattern?
 
 The next part of the assignment asks us to create a time series plot of the
 number of steps taken in each interval, averaged across all days, and to
@@ -119,7 +119,7 @@ The identifier of the interval with the maximum number of steps averaged across
 all days is 835.
 
 
-##Imputing Missing Values
+## Imputing Missing Values
 
 This part of the assignment asks that we calculate and report the number of
 missing values in the dataset then devise a strategy for filling in the missing
@@ -201,7 +201,7 @@ median for a given interval is that the number of days with total steps in the
 0-5,000 range increases from 5 to 13. The other step ranges are unchanged.
 
 
-##Are There Differences in Activity Patterns Between Weekdays and Weekends?
+## Are There Differences in Activity Patterns Between Weekdays and Weekends?
 
 The final part of the assignment asks us to separate the data into weekend and
 weekday data by creating a new factor variable. Then, we are asked to create a
